@@ -63,24 +63,34 @@ Each section focuses on a specific aspect of the market and provides actionable 
 ```
 airbnb-analysis/
 │
-├── data/
-│ ├── raw/
-│ └── cleaned/
+├── data/   
+│   ├── raw/
+│   │   ├── listings.csv.gz
+│   │   ├── reviews_sample.csv
+│   │   └── calendar.csv.gz
+│   │
+│   └── cleaned/
+│       ├── listings.csv
+│       ├── reviews.csv
+│       └── calendar_sample.csv
 │
 ├── notebooks/
-│ └── data_cleaning.ipynb
+│   └── airbnb-amsterdam-market-analysis.ipynb
 │
 ├── sql/
-│ └── queries.sql
+│   ├── price_segmentation.sql
+│   ├── host_performance.sql
+│   ├── neighbourhood_analysis.sql
+│   └── property_analysis.sql
 │
 ├── powerbi/
-│ └── dashboard.pbix
+│   └── Amsterdan_Airbnb_Dashboard.pbix
 │
 ├── images/
-│ └── overview.png
-│ └── price.png
-│ └── host.png
-│ └── property.png
+│   ├── overview.png
+│   ├── price.png
+│   ├── host.png
+│   └── property.png
 │
 └── README.md
 ```
