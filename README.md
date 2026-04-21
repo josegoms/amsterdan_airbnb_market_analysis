@@ -5,6 +5,7 @@ The workflow covers the full data pipeline:
 - Data cleaning and preprocessing using Python (Pandas)
 - Data modeling and analysis using SQL (SQLite)
 - Interactive dashboard development using Power BI
+
 The goal is to extract actionable insight from real-world raw data and present them in a instructive and dynamic business-oriented manner, educating the audience in the Amsterdan Airbnb ecosystem.
 
 ## Dataset
@@ -12,6 +13,7 @@ The analysis is based on the Airbnb Amsterdam dataset, which includes:
 - Listings: property details, pricing, host information
 - Reviews: customer feedback and activity
 - Calendar: availability and booking constraints
+
 The raw data required significant cleaning due to inconsistent formats, missing values, and redundant fields.
 
 ## Data Preparation
@@ -22,6 +24,7 @@ The dataset was cleaned and transformed to ensure consistency and usability:
 - Removed invalid records and extreme outliers
 - Reduced dataset to relevant analytical features
 - Created occupancy rate derived metric to extract the availability fields full potential
+
 This step ensured the data was structured and ready for analysis.
 
 ## Analysis & Dashboard
@@ -35,6 +38,7 @@ The dashboard is structured into four main sections:
    - Comparison between superhosts and non-superhosts
 4. **Property Strategy**
    - Performance across different property types
+
 Each section focuses on a specific aspect of the market and provides actionable insights.
 
 ## Dashboard Preview
