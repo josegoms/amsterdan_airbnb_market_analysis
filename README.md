@@ -76,6 +76,12 @@ airbnb-analysis/
 ├── powerbi/
 │ └── dashboard.pbix
 │
+├── images/
+│ └── overview.png
+│ └── price.png
+│ └── host.png
+│ └── property.png
+│
 └── README.md
 ```
 
