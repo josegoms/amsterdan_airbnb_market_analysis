@@ -47,6 +47,16 @@ Each section focuses on a specific aspect of the market and provides actionable 
 ![Host Performance](images/host.png)
 ![Property Strategy](images/property.png)
 
+## SQL Analysis
+SQL queries were used to aggregate and analyze the cleaned dataset.
+Each query corresponds to a section of the dashboard:
+- Price segmentation
+- Host performance
+- Neighbourhood analysis
+- Property strategy
+
+The queries are available in the `/sql` folder.
+
 ## Key Insights
 - Central areas have significantly higher prices while maintaining strong ratings and lower availability
 - Mid-priced listings dominate the market in volume and revenue
