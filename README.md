@@ -94,3 +94,12 @@ airbnb-analysis/
 ## Conclusion
 
 This project demonstrates a complete data workflow, from raw data cleaning to insight generation, with a focus on clarity, structure, and real-world applicability.
+
+## Data Access
+
+Due to file size limitations, the full dataset is not included in this repository.
+
+You can download the original dataset from:
+👉 [Inside Airbnb](https://insideairbnb.com/get-the-data/)
+
+A sample of the dataset is provided for reference.
